@@ -30,7 +30,7 @@ end
 group :development, :test do
   gem 'mocha', '~> 0.13.3', :require => false
   gem 'sqlite3'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 2.13.0'
   gem 'factory_girl', '< 3.0' # supports ruby 1.8.7
   gem 'shoulda-matchers', '< 2.0' # support ruby 1.8.7
   gem 'rspec-html-matchers'
