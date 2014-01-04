@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rake'                , '~> 0.9.3'
 gem 'rails'               , '~> 3.2'
 gem 'will_paginate'       , '~> 3.0'
-gem 'inherited_resources' , '~> 1.0'
+gem 'inherited_resources' , '1.4.0' # Pin this until they fix ruby 1.8.7 compat
 
 gem 'thin'
 gem 'rack'
