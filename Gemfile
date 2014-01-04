@@ -32,7 +32,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'factory_girl', '< 3.0' # supports ruby 1.8.7
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '< 2.0' # support ruby 1.8.7
   gem 'rspec-html-matchers'
   gem 'nokogiri', '< 1.6' # support ruby 1.8.7
 end
